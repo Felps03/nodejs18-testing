@@ -1,0 +1,22 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "A study project for implementing unit and E2E tests in Node.js with Express. This project demonstrates how to test a user REST API.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "test:coverage": "node --test --experimental-test-coverage",
+    "test:unit": "node --test __test__/unit",
+    "test:e2e": "node --test __test__/e2e",
+    "start": "node src/index"
+  },
+  "engines" : { 
+    "node" : ">=18.17.0"
+  },
+  "keywords": ["nodejs", "e2e", "testing", "express", "unit-testing"],
+  "author": "Felipe Santos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
